@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mani Teja Gurram | AIML Developer</title>
+    <meta name="description"
+        content="Portfolio of Mani Teja Gurram — AIML Developer specializing in Generative AI, RAG Systems, and Full-Stack AI solutions.">
+    <meta name="keywords" content="Mani Teja Gurram, AIML Developer, Generative AI, RAG, LLM, Python, Portfolio">
+    <meta name="author" content="Mani Teja Gurram">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Antigravity-style vortex canvas -->
+    <canvas id="vortex-canvas"></canvas>
+    <div class="noise-overlay"></div>
+    <div class="edge-vignette"></div>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-link" id="nav-logo">
+                <img src="assets/logo.png" alt="Logo" class="logo-img">
+                <span class="logo-text">MANI TEJA</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-item active">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#experience" class="nav-item">Experience</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary nav-cta">Let's Talk</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero-section">
+        <div class="hero-container container">
+            <div class="hero-content">
+                <span class="hero-subtitle reveal">AIML DEVELOPER</span>
+                <h1 class="hero-title reveal">Hi, I'm <span class="gradient-text">Mani Teja Gurram</span></h1>
+                <h2 class="hero-tagline reveal">I build <span class="typed-text" id="typed-text"></span><span
+                        class="typed-cursor">|</span></h2>
+                <p class="hero-description reveal">Professional AIML Developer specializing in Generative AI, RAG
+                    Systems, LLMs, and full-stack AI solutions. Passionate about building conversational AI platforms
+                    and intelligent automation.</p>
+                <div class="hero-cta reveal">
+                    <a href="#projects" class="btn btn-gradient">Explore Work</a>
+                    <a href="#about" class="btn btn-outline">About Me</a>
+                </div>
+            </div>
+            <div class="hero-image-area reveal">
+                <div class="hero-img-wrapper">
+                    <div class="glow-ring"></div>
+                    <img src="assets/profile.jpg" alt="Mani Teja Gurram" class="hero-profile-img">
+                    <div class="floating-badge badge-1"><span class="badge-icon">🤖</span>
+                        <div class="badge-text">
+                            <h4>Generative AI</h4>
+                            <p>LLMs & RAG Systems</p>
+                        </div>
+                    </div>
+                    <div class="floating-badge badge-2"><span class="badge-icon">⚡</span>
+                        <div class="badge-text">
+                            <h4>FastAPI</h4>
+                            <p>High-Performance APIs</p>
+                        </div>
+                    </div>
+                    <div class="floating-badge badge-3"><span class="badge-icon">🧠</span>
+                        <div class="badge-text">
+                            <h4>ML / DL</h4>
+                            <p>TensorFlow & PyTorch</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down-indicator"><a href="#about">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div><span>Scroll Down</span>
+            </a></div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about-section section">
+        <div class="container">
+            <div class="section-header text-center"><span class="section-subtitle">KNOW MORE</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-info scroll-reveal">
+                    <h3 class="about-headline">Engineering intelligent AI systems with clean architecture and scalable
+                        design.</h3>
+                    <p class="about-text">Professional AIML Developer with experience at IGLOBUS.AI and Digital Edify
+                        Private Limited, specializing in generative AI and machine learning. Successfully engineered a
+                        multi-domain conversational AI platform and a heuristic resume parser, enhancing user experience
+                        and accuracy.</p>
+                    <p class="about-text">Proficient in API integration, data analysis, prompt engineering, and
+                        deploying LLM-based services. Strong problem-solving skills with a passion for innovative
+                        technology solutions.</p>
+                    <div class="about-details-grid">
+                        <div class="detail-item"><span class="detail-label">Location</span><span
+                                class="detail-val">Hyderabad, India</span></div>
+                        <div class="detail-item"><span class="detail-label">Email</span><span
+                                class="detail-val">manit9820@gmail.com</span></div>
+                        <div class="detail-item"><span class="detail-label">Phone</span><span class="detail-val">+91
+                                9390426685</span></div>
+                        <div class="detail-item"><span class="detail-label">Specialty</span><span
+                                class="detail-val">AIML & Generative AI</span></div>
+                        <div class="detail-item"><span class="detail-label">Education</span><span
+                                class="detail-val">B.Tech CSE, IARE</span></div>
+                        <div class="detail-item"><span class="detail-label">Freelance</span><span
+                                class="detail-val">Available</span></div>
+                    </div>
+                    <div class="about-actions"><a href="assets/resume.pdf" class="btn btn-gradient"
+                            download><span>Download CV</span></a></div>
+                </div>
+                <div class="about-skills scroll-reveal">
+                    <h3 class="about-headline">My Skills</h3>
+                    <div class="skills-category-tabs">
+                        <button class="skill-tab active" data-category="aiml">AI / ML</button>
+                        <button class="skill-tab" data-category="backend">Backend</button>
+                        <button class="skill-tab" data-category="tools">Tools & Data</button>
+                    </div>
+                    <div class="skills-container">
+                        <div class="skills-grid active" id="skills-aiml">
+                            <div class="skill-card">
+                                <div class="skill-header"><span class="skill-name">LLMs & RAG Systems</span><span
+                                        class="skill-percentage">92%</span></div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-bar" style="width:92%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header"><span class="skill-name">Prompt Engineering</span><span
+                                        class="skill-percentage">90%</span></div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-bar" style="width:90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header"><span class="skill-name">TensorFlow / PyTorch</span><span
+                                        class="skill-percentage">85%</span></div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-bar" style="width:85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header"><span class="skill-name">LangChain / CrewAI / Agentic
+                                        AI</span><span class="skill-percentage">88%</span></div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-bar" style="width:88%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-grid" id="skills-backend">
+                            <div class="skill-card">
+                                <div class="skill-header"><span class="skill-name">Python (Advanced)</span><span
+                                        class="skill-percentage">95%</span></div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-bar" style="width:95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header"><span class="skill-name">FastAPI / Flask</span><span
+                                        class="skill-percentage">90%</span></div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-bar" style="width:90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header"><span class="skill-name">REST APIs & Model Serving</span><span
+                                        class="skill-percentage">88%</span></div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-bar" style="width:88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header"><span class="skill-name">HTML / CSS / JavaScript</span><span
+                                        class="skill-percentage">82%</span></div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-bar" style="width:82%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-grid" id="skills-tools">
+                            <div class="skill-card">
+                                <div class="skill-header"><span class="skill-name">MongoDB / Pinecone /
+                                        ChromaDB</span><span class="skill-percentage">88%</span></div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-bar" style="width:88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header"><span class="skill-name">AWS / Docker / Deployment</span><span
+                                        class="skill-percentage">78%</span></div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-bar" style="width:78%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header"><span class="skill-name">ETL Pipelines & Data
+                                        Processing</span><span class="skill-percentage">85%</span></div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-bar" style="width:85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header"><span class="skill-name">Hugging Face Models</span><span
+                                        class="skill-percentage">83%</span></div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-bar" style="width:83%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects-section section">
+        <div class="container">
+            <div class="section-header text-center"><span class="section-subtitle">MY WORK</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card scroll-reveal">
+                    <div class="project-img-container">
+                        <div class="project-cover-gradient gradient-cyan-blue"><span
+                                class="project-icon-placeholder">🤖</span></div>
+                    </div>
+                    <div class="project-details">
+                        <span class="project-category">Generative AI</span>
+                        <h3 class="project-title">Multi-Domain RAG Conversational AI</h3>
+                        <p class="project-desc">Production-grade RAG system using FastAPI, Pinecone, MongoDB, and Ollama
+                            with hybrid intent classification (rule-based + LLM) to route queries efficiently. Includes
+                            document ingestion, semantic search, text chunking, embeddings, and reranking.</p>
+                        <div class="project-tags">
+                            <span>FastAPI</span><span>Pinecone</span><span>MongoDB</span><span>Ollama</span><span>RAG</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal">
+                    <div class="project-img-container">
+                        <div class="project-cover-gradient gradient-purple-pink"><span
+                                class="project-icon-placeholder">📄</span></div>
+                    </div>
+                    <div class="project-details">
+                        <span class="project-category">Full-Stack AI</span>
+                        <h3 class="project-title">Recruiter OS — AI Recruitment System</h3>
+                        <p class="project-desc">Full-stack AI recruitment system with LLM-powered extraction pipelines
+                            for resume parsing and JD analysis. Features Google Gemini integration, MD5-based caching,
+                            admin dashboard, and resume-to-JD matching.</p>
+                        <div class="project-tags"><span>Python</span><span>Gemini
+                                API</span><span>FastAPI</span><span>pdfplumber</span><span>JS/HTML/CSS</span></div>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal">
+                    <div class="project-img-container">
+                        <div class="project-cover-gradient gradient-orange-red"><span
+                                class="project-icon-placeholder">📚</span></div>
+                    </div>
+                    <div class="project-details">
+                        <span class="project-category">AI Application</span>
+                        <h3 class="project-title">AI Study Planner</h3>
+                        <p class="project-desc">AI-powered web app generating personalized topic-based study plans from
+                            syllabus text. Integrates Google Gemini LLM and supports offline operation with Ollama
+                            (Llama 3.2). Uses ChromaDB for vector storage.</p>
+                        <div class="project-tags"><span>Flask</span><span>Gemini
+                                API</span><span>Ollama</span><span>ChromaDB</span><span>Llama 3.2</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="experience-section section">
+        <div class="container">
+            <div class="section-header text-center"><span class="section-subtitle">MY PATH</span>
+                <h2 class="section-title">Work Experience</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-item scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Dec 2025 – Feb 2026</div>
+                    <div class="timeline-content">
+                        <h3>AIML Developer</h3>
+                        <h4>IGLOBUS.AI — Hitech City, Hyderabad</h4>
+                        <p>Designed production-grade RAG systems with FastAPI, Pinecone, MongoDB & Ollama. Implemented
+                            hybrid intent classification, LLM-powered resume parsing, conversation state management, and
+                            deployed containerized LLM services on AWS.</p>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Apr 2025 – Oct 2025</div>
+                    <div class="timeline-content">
+                        <h3>AIML Developer Intern</h3>
+                        <h4>Digital Edify Private Limited — Madhapur, Hyderabad</h4>
+                        <p>Developed AI Study Planner with Google Gemini LLM and Ollama for offline operation. Built
+                            Flask APIs for syllabus parsing, topic extraction, and plan generation. Used ChromaDB for
+                            vector storage with Gemini and Nomic embeddings.</p>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Graduated Aug 2025</div>
+                    <div class="timeline-content">
+                        <h3>B.Tech Computer Science & Engineering</h3>
+                        <h4>Institute of Aeronautical Engineering — Dundigal, India</h4>
+                        <p>Focused on computer science fundamentals, data structures, algorithms, machine learning, and
+                            software engineering principles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section section">
+        <div class="container">
+            <div class="section-header text-center"><span class="section-subtitle">GET IN TOUCH</span>
+                <h2 class="section-title">Contact Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info scroll-reveal">
+                    <h3 class="contact-headline">Let's build intelligent solutions together!</h3>
+                    <p class="contact-text">I'm open to new opportunities, collaborations on AI/ML projects, and
+                        freelance work. Whether you need a conversational AI platform, an intelligent automation
+                        pipeline, or just want to chat about LLMs — reach out!</p>
+                    <div class="contact-methods">
+                        <div class="contact-method-item">
+                            <div class="method-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg></div>
+                            <div class="method-details"><span>Email</span><a
+                                    href="mailto:manit9820@gmail.com">manit9820@gmail.com</a></div>
+                        </div>
+                        <div class="contact-method-item">
+                            <div class="method-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg></div>
+                            <div class="method-details"><span>Phone</span><a href="tel:+919390426685">+91 9390426685</a>
+                            </div>
+                        </div>
+                        <div class="contact-method-item">
+                            <div class="method-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg></div>
+                            <div class="method-details"><span>Location</span><span>Hyderabad, India 500037</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper scroll-reveal">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group"><input type="text" id="name" required placeholder=" "><label
+                                    for="name">Your Name</label></div>
+                            <div class="form-group"><input type="email" id="email" required placeholder=" "><label
+                                    for="email">Your Email</label></div>
+                        </div>
+                        <div class="form-group"><input type="text" id="subject" required placeholder=" "><label
+                                for="subject">Subject</label></div>
+                        <div class="form-group"><textarea id="message" required rows="5"
+                                placeholder=" "></textarea><label for="message">Message</label></div>
+                        <button type="submit" class="btn btn-gradient btn-submit" id="btn-submit"><span>Send
+                                Message</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <div class="footer-logo"><img src="assets/logo.png" alt="Logo" class="logo-img"><span
+                        class="logo-text">MANI TEJA</span></div>
+                <p class="footer-tagline">Building intelligent AI systems with precision and passion.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" aria-label="GitHub"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg></a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mani Teja Gurram. All rights reserved.</p>
+        </div>
+    </footer>
+    <div id="toast-container" class="toast-container"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
