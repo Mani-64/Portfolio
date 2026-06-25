@@ -110,6 +110,12 @@ app.get('/', (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
-    console.log(`🚀 Portfolio server running at http://localhost:${PORT}`);
-});
+// Start server (local development only)
+if (process.env.NODE_ENV !== 'production') {
+    app.listen(PORT, () => {
+        console.log(`🚀 Portfolio server running at http://localhost:${PORT}`);
+    });
+}
+
+// Export the app for Vercel Serverless deployment
+module.exports = app;
