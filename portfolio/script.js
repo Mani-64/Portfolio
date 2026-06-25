@@ -483,8 +483,9 @@ function initContactForm() {
             message: document.getElementById('message').value.trim(),
         };
         
-        // Dynamically detect server location. If running via file:// or non-3000 local port, target the Node backend on port 3000.
-        const targetUrl = window.location.protocol === 'file:' || !window.location.host.includes('3000')
+        // Use relative path '/api/contact' for Vercel production deployment,
+        // and 'http://localhost:3000/api/contact' for local file:// testing.
+        const targetUrl = window.location.protocol === 'file:' || (window.location.hostname === 'localhost' && window.location.port !== '3000')
             ? 'http://localhost:3000/api/contact'
             : '/api/contact';
         
